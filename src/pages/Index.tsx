@@ -370,6 +370,68 @@ export default function Index() {
         </div>
       </section>
 
+      <section id="methods" className="py-20 px-4 bg-secondary/15">
+        <div className="container mx-auto">
+          <div className="text-center mb-12 max-w-3xl mx-auto">
+            <span className="uppercase tracking-[0.3em] text-sm text-primary">Мои практики</span>
+            <h2 className="text-4xl md:text-5xl font-bold my-4 text-foreground">Методики и ритуалы исцеления</h2>
+            <p className="text-lg text-muted-foreground">
+              Каждая сессия включает работу с энергиями, телом и сознанием. Я использую проверенные ритуалы, чтобы мягко провести вас через трансформацию.
+            </p>
+          </div>
+          <div className="grid lg:grid-cols-3 gap-6">
+            <Card className="p-6 h-full bg-card/90 backdrop-blur-md border-border/50 animate-fade-in">
+              <CardHeader className="space-y-4">
+                <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
+                  <Icon name="Waves" size={28} className="text-primary" />
+                </div>
+                <CardTitle className="text-2xl">Чистка четырёх стихий</CardTitle>
+                <CardDescription className="text-base leading-relaxed">
+                  Сочетание силы воды, огня, земли и воздуха для полного обновления энергии. Ритуал снимает следы негативных воздействий и возвращает спокойствие душе.
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="text-sm text-muted-foreground space-y-2">
+                <p className="flex items-center gap-2"><Icon name="Droplets" size={18} /> Вода смывает эмоциональные блоки</p>
+                <p className="flex items-center gap-2"><Icon name="Flame" size={18} /> Огонь трансформирует страхи</p>
+                <p className="flex items-center gap-2"><Icon name="Feather" size={18} /> Воздух наполняет лёгкостью</p>
+              </CardContent>
+            </Card>
+            <Card className="p-6 h-full bg-card/90 backdrop-blur-md border-border/50 animate-fade-in" style={{ animationDelay: '0.1s' }}>
+              <CardHeader className="space-y-4">
+                <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
+                  <Icon name="Flower" size={28} className="text-primary" />
+                </div>
+                <CardTitle className="text-2xl">Ритуал родовой гармонии</CardTitle>
+                <CardDescription className="text-base leading-relaxed">
+                  Работа с родовыми каналами, восстановление связи с предками и укрепление семейной энергии. Помогает вернуть мир в отношения и снять повторяющиеся сценарии.
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="text-sm text-muted-foreground space-y-2">
+                <p className="flex items-center gap-2"><Icon name="Infinity" size={18} /> Выявление родовых узлов</p>
+                <p className="flex items-center gap-2"><Icon name="Link2" size={18} /> Восстановление потоков поддержки</p>
+                <p className="flex items-center gap-2"><Icon name="HeartHandshake" size={18} /> Благословение будущих поколений</p>
+              </CardContent>
+            </Card>
+            <Card className="p-6 h-full bg-card/90 backdrop-blur-md border-border/50 animate-fade-in" style={{ animationDelay: '0.2s' }}>
+              <CardHeader className="space-y-4">
+                <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
+                  <Icon name="Moon" size={28} className="text-primary" />
+                </div>
+                <CardTitle className="text-2xl">Лунные практики исцеления</CardTitle>
+                <CardDescription className="text-base leading-relaxed">
+                  Индивидуальные практики на растущей и полной луне. Подходят для запуска новых проектов, исцеления сердца и укрепления интуиции.
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="text-sm text-muted-foreground space-y-2">
+                <p className="flex items-center gap-2"><Icon name="Sparkles" size={18} /> Настройка на циклы луны</p>
+                <p className="flex items-center gap-2"><Icon name="Wand" size={18} /> Авторские аффирмации</p>
+                <p className="flex items-center gap-2"><Icon name="BookOpen" size={18} /> Домашние задания для закрепления</p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       <section id="about" className="py-20 px-4 bg-secondary/20">
         <div className="container mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
